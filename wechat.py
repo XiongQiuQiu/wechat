@@ -15,6 +15,6 @@ def send_msg():
     return str({'status': 200})
 
 if __name__ == '__main__':
-    itchat.auto_login()
+    itchat.auto_login(enableCmdQR=True, hotReload=True)
     app.run()
 
